@@ -1,3 +1,65 @@
 wqertyuio
 
 sdsfghjkl;
+
+
+
+PS D:\work\pr-6> git log
+commit 33d8c14399f3d336952b9690a76df09fcc325339 (HEAD -> main)
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:57 2025 +0200
+
+    add txt to 1 and 2
+
+commit 0c6a9ff9e1be3906e780a6706f1779e39332dfbf
+:...skipping...
+commit 33d8c14399f3d336952b9690a76df09fcc325339 (HEAD -> main)
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:57 2025 +0200
+
+    add txt to 1 and 2
+
+commit 0c6a9ff9e1be3906e780a6706f1779e39332dfbf
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:36 2025 +0200
+
+    add txt to 2
+
+commit d698812d4a56359cc4d3342fbd76b11f70bed83a
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:24 2025 +0200
+
+    add txt to 1
+
+commit a357feff8b74c3d45266d02fa80262622f5f82b4
+commit 33d8c14399f3d336952b9690a76df09fcc325339 (HEAD -> main)
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:57 2025 +0200
+
+    add txt to 1 and 2
+
+commit 0c6a9ff9e1be3906e780a6706f1779e39332dfbf
+:...skipping...
+commit 33d8c14399f3d336952b9690a76df09fcc325339 (HEAD -> main)
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:57 2025 +0200
+
+    add txt to 1 and 2
+
+commit 0c6a9ff9e1be3906e780a6706f1779e39332dfbf
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:36 2025 +0200
+
+    add txt to 2
+
+commit d698812d4a56359cc4d3342fbd76b11f70bed83a
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:24 2025 +0200
+
+    add txt to 1
+
+commit a357feff8b74c3d45266d02fa80262622f5f82b4
+Author: Maks Thimbarov <thimbarov@gmail.com>
+Date:   Tue Mar 11 23:00:06 2025 +0200
+
+    add files
