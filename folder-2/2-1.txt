@@ -1,1 +1,16 @@
 dsfghjkl;''
+
+
+before delete branch
+PS D:\work\pr-6> git branch
+  first
+  main
+  second
+* third-from-second
+
+after delete branch 
+
+PS D:\work\pr-6> git branch
+* first
+  main
+  second
