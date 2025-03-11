@@ -18,3 +18,37 @@ Fast-forward
  folder-2/2-1.txt |  16 ++++++++++++++++
  2 files changed, 16 insertions(+)
  create mode 100644 feature.txt
+
+Merge with a Merge Commit
+
+ PS D:\work\pr-6> git merge feature --no-ff
+Merge made by the 'ort' strategy.
+ feature.txt      | Bin 36 -> 50 bytes
+ folder-3/res.txt |  20 ++++++++++++++++++++
+ 2 files changed, 20 insertions(+)
+ create mode 100644 folder-3/res.txt
+
+Conflict
+PS D:\work\pr-6> echo "Feature changes" > file.txt
+PS D:\work\pr-6> git add file.txt
+>>
+PS D:\work\pr-6> git commit -m "Add feature changes to file.txt"
+[feature 8845c72] Add feature changes to file.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.txt
+PS D:\work\pr-6> git checkout main
+Switched to branch 'main'
+M       folder-3/res.txt
+Your branch is based on 'origin/main', but the upstream is gone.    
+  (use "git branch --unset-upstream" to fixup)
+PS D:\work\pr-6> echo "Main changes" > file.txt
+PS D:\work\pr-6> git add file.txt
+PS D:\work\pr-6> git commit -m "Add main changes to file.txt"
+[main cbd670c] Add main changes to file.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file.txt
+PS D:\work\pr-6> git merge feature
+warning: Cannot merge binary files: file.txt (HEAD vs. feature)
+Auto-merging file.txt
+CONFLICT (add/add): Merge conflict in file.txt
+Automatic merge failed; fix conflicts and then commit the result.
